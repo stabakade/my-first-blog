@@ -26,7 +26,7 @@ SECRET_KEY = 'vkdsl7yo-#l845ktd4pfx_7ew_==(j3sf9yx&mnqic_(&skj61'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
-
+STATICFILES_DIRS = ["/blog/static"]
 
 # Application definition
 
